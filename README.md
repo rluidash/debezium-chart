@@ -85,8 +85,9 @@ The dbezium-connector-mysql version is [2.1.3.Final](https://repo1.maven.org/mav
 5. Verify the setup
 
  start watching  kafka topic: msyql.inventory.customers
+ 
  ```
-  kubectl rn -it --rm --image=quay.io/debezium/tooling:1.2  --restart=Never watcher -- kcat -b debezium-cluster-kafka-bootstrap:9092 -C -o beginning -t mysql.inventory.customers
+  kubectl run -it --rm --image=quay.io/debezium/tooling:1.2  --restart=Never watcher -- kcat -b debezium-cluster-kafka-bootstrap:9092 -C -o beginning -t mysql.inventory.customers
   ```
   
  connect to mysql server
