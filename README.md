@@ -14,7 +14,7 @@ The kafka connect version is 3.3.2
 The dbezium-connector-mysql version is [2.1.3.Final](https://repo1.maven.org/maven2/io/debezium/debezium-connector-mysql/2.1.3.Final/debezium-connector-mysql-2.1.3.Final-plugin.tar.gz)
  
 
-###How to use or install this helm chart
+## How to use or install this helm chart
 
 1. Add the strimzi helm repo
 
