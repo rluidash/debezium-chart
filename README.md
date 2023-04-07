@@ -48,7 +48,7 @@ The dbezium-connector-mysql version is [2.1.3.Final](https://repo1.maven.org/mav
 4. Checking the created resources
 
 	```
-	silui@SILUI-M-Q8CG debezium-chart % kubectl get all 
+	 
 	NAME                                                    READY   STATUS    RESTARTS      AGE
 	pod/debezium-cluster-entity-operator-7fddf57b9c-w9wx2   3/3     Running   0             51m
 	pod/debezium-cluster-kafka-0                            1/1     Running   0             52m
